@@ -17,6 +17,7 @@ Requirements
 Hardware Installation
 ---------------------
 
+![alt tag](http://geekfamily.github.io/RemoteSensorMon/img/RemoteSensorMon_bb.png)
 
 Software Installation
 ---------------------
