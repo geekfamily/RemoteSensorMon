@@ -33,7 +33,10 @@ To make this project work you will need to build the following circuit.  In case
 
 ![alt tag](http://geekfamily.github.io/RemoteSensorMon/img/RemoteSensorMon_bb.png)
 
-Once the circuit is built you need to load the 'StandardFirmata' library onto the Arduino (In Arduino IDE: File > Examples > Firmata > StandardFirmata)
+Once the circuit is built you need to load the Duino code onto the Arduino.  The code can be found in the src directory of the Duino library and the file is called 'du.ino'.  
+* All you need to do is load the file in the Arduino IDE
+* Click the verify/compile (checkmark icon) button
+* Once the code is verified click the upload (arrow icon) button and it will be transfered to the Arduino
 
 Software Installation
 ---------------------
