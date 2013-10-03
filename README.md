@@ -42,25 +42,26 @@ Software Installation
 ---------------------
 
 1. This project is a Node based server with a very basic single page in it
-2. Grab the code by whatever means suits you
-3. If your setup is like mine (headless RPI) you will probably have to use SSH to copy the files to your PI at this point
-4. Once all the files are in a directory on your RPI you can configure the Node project (from the root directory of the project installation):
+2. If you need help getting node running on your RPI [this link](http://blog.rueedlinger.ch/2013/03/raspberry-pi-and-nodejs-basic-setup/) is a great help
+3. Grab the code by whatever means suits you
+4. If your setup is like mine (headless RPI) you will probably have to use SSH to copy the files to your PI at this point
+5. Once all the files are in a directory on your RPI you can configure the Node project (from the root directory of the project installation):
 
         npm install
 
-5. At this point all the npm packages have been installed and you will now need to make a modification to the Board.js file of duino, so take your favorite editor (Nano in my case) and enter the following:
+6. At this point all the npm packages have been installed and you will now need to make a modification to the Board.js file of duino, so take your favorite editor (Nano in my case) and enter the following:
 
         nano node_modules/duino/lib/board.js
 
-6. Find the following line:
+7. Find the following line:
 
         ls /dev | grep usb
 
-7. It should read as follows if you want the code to search correctly for the correct USB port
+8. It should read as follows if you want the code to search correctly for the correct USB port
 
         ls /dev | grep -E 'usb|ttyACM*'
 
-8. Save the file and your ready for testing
+9. Save the file and your ready for testing
 
 Testing
 -------
